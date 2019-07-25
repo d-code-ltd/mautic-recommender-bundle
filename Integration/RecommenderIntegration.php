@@ -111,7 +111,6 @@ class RecommenderIntegration extends AbstractIntegration
                     ]                    
                 ]
             );
-
             $builder->add(
                 'items_import_url',
                 UrlType::class,
